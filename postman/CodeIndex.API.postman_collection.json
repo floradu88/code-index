@@ -1,0 +1,561 @@
+{
+	"info": {
+		"_postman_id": "0554176f-a363-4706-9ce0-f0f616d736f1",
+		"name": "CodeIndex.API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7644705"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "chat",
+					"item": [
+						{
+							"name": "thread",
+							"item": [
+								{
+									"name": "/api/chat/thread",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "ebdd5948-07f4-e674-eb77-1e8d3f5dfce8",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/chat/thread",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"chat",
+												"thread"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "ebdd5948-07f4-e674-eb77-1e8d3f5dfce8",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/chat/thread",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"chat",
+														"thread"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "ask",
+							"item": [
+								{
+									"name": "/api/chat/ask",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"projectId\": \"b34b2478-5de7-42a9-906a-7f73b7e6d37f\",\n  \"question\": \"Give me a summary about the project\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/chat/ask",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"chat",
+												"ask"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"projectId\": \"3ea39e7e-0e61-1218-4617-431aa7106bd3\",\n  \"question\": \"string\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/chat/ask",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"chat",
+														"ask"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "history",
+							"item": [
+								{
+									"name": "{projectId}",
+									"item": [
+										{
+											"name": "/api/chat/history/:projectId",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/chat/history/:projectId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"chat",
+														"history",
+														":projectId"
+													],
+													"variable": [
+														{
+															"key": "projectId",
+															"value": "ebdd5948-07f4-e674-eb77-1e8d3f5dfce8"
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "OK",
+													"originalRequest": {
+														"method": "GET",
+														"header": [],
+														"url": {
+															"raw": "{{baseUrl}}/api/chat/history/:projectId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"api",
+																"chat",
+																"history",
+																":projectId"
+															],
+															"variable": [
+																{
+																	"key": "projectId"
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "text",
+													"header": [],
+													"cookie": [],
+													"body": ""
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "index",
+					"item": [
+						{
+							"name": "start",
+							"item": [
+								{
+									"name": "/api/index/start",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"name\": \"local-dev\",\n  \"basePath\": \"d:\\\\code\\\\Projects\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/index/start",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"index",
+												"start"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"name\": \"string\",\n  \"basePath\": \"string\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/index/start",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"index",
+														"start"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "status",
+							"item": [
+								{
+									"name": "{projectId}",
+									"item": [
+										{
+											"name": "/api/index/status/:projectId",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/index/status/:projectId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"index",
+														"status",
+														":projectId"
+													],
+													"variable": [
+														{
+															"key": "projectId",
+															"value": "ebdd5948-07f4-e674-eb77-1e8d3f5dfce8"
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "OK",
+													"originalRequest": {
+														"method": "GET",
+														"header": [],
+														"url": {
+															"raw": "{{baseUrl}}/api/index/status/:projectId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"api",
+																"index",
+																"status",
+																":projectId"
+															],
+															"variable": [
+																{
+																	"key": "projectId"
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "text",
+													"header": [],
+													"cookie": [],
+													"body": ""
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "health",
+			"item": [
+				{
+					"name": "/health",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/health",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"health"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/health",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"health"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "https://api.openai.com/v1/assistants",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{OpenAIKey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "OpenAI-Beta",
+						"value": "assistants=v2"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"model\": \"gpt-4.1\",\n    \"name\": \"CodeIndex Assistant\",\n    \"instructions\": \"You help answer questions about a codebase whose files are posted as messages with metadata file & chunkIndex. Prefer precise, scoped answers and ask follow-ups only when needed.\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.openai.com/v1/assistants",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openai",
+						"com"
+					],
+					"path": [
+						"v1",
+						"assistants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "07) Ensure Assistant For Project",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ProjectId\": \"b34b2478-5de7-42a9-906a-7f73b7e6d37f\",\r\n    \"Name\": \"CodeIndex Assistant\",\r\n    \"Instructions\": \"You answer questions about the indexed codebase. Be concise, reference file paths when relevant.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/chat/assistant/ensure",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"chat",
+						"assistant",
+						"ensure"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		},
+		{
+			"key": "OpenAIKey",
+			"value": ""
+		},
+		{
+			"key": "projectId",
+			"value": "",
+			"type": "default"
+		}
+	]
+}

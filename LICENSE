@@ -1,21 +1,22 @@
-MIT License
+Business Source License 1.1
 
-Copyright (c) 2025 Florescu Radu
+Licensor: Radu Florescu
+Licensed Work: CodeIndex (the “Licensed Work”)
+The Licensed Work is (c) 2025
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Additional Use Grant: You may use, copy, modify, create derivative works, and redistribute the Licensed Work for non-production purposes.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Change Date: 14/10/2025
+Change License: Apache-2.0
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Use Limitation: You may not use the Licensed Work for a Production Use, such as running the Licensed Work or a modified version of it in a production environment, providing it to third parties as a service, or using it to process production data, except under a separate commercial license from the Licensor.
+
+Notice: You must preserve this license text and copyright notice in all copies or substantial portions of the Licensed Work.
+
+Warranty: The Licensed Work is provided “AS IS”, without warranty of any kind.
+
+Liability: Licensor shall not be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Licensed Work or the use or other dealings in the Licensed Work.
+
+Additional Terms: Any use beyond the Additional Use Grant requires a commercial license from the Licensor.
+
+For commercial licensing, contact: <radu.florescu@hotmail.com>
